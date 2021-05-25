@@ -1,0 +1,335 @@
+/*section 1*/
+.section1{
+    width: 100%;
+    height: 1000px;
+    background-image: url(image/Livello1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav1{
+    width: 100%;
+}
+
+.ul-nav1{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    list-style: none;
+}
+
+.div1_section1{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 300%;
+    color: white;
+    margin: 0px;
+}
+
+.p_div1{
+    font-size: 150%;
+    color: white;
+    margin: 0px;
+}
+
+.bouton_GS1{
+    border: 2px solid rgb(22, 160, 133);
+    background-color: rgb(22, 160, 133);
+    border-radius: 5%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+}
+
+.icons_section{
+    width: 40%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+i{
+    font-size: 150%;
+    color: white;
+}
+/*fin de section 1*/
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+/*section 2*/
+.section2{
+    width: 100%;
+    height: 401px;
+    background-image: url(image/screen.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: inherit;
+    background-color: rgb(245, 246, 247);
+}
+
+.section2 img{
+    width: 100%;
+    height: auto;
+}
+
+.div1_section2{
+    width: 50%;
+}
+
+.h2_section2{
+    color:rgb(22, 160, 133);
+}
+
+.bouton_GS2{
+    background-color: rgb(22, 160, 133);;
+    color: white;
+    border: 2px solid rgb(22, 160, 133);
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.p1_section2{
+    padding-bottom: 20px;
+}
+/*fin de section 2*/
+
+/*section 3*/
+.section3{
+    width: 100%;
+    height: 351px;
+    padding-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.h2_section3{
+    color:rgb(22, 160, 133);
+}
+
+.p1_section3{
+    padding-bottom: 20px;
+}
+
+.bouton_LM{
+    background-color: rgb(22, 160, 133);;
+    color: white;
+    border: 2px solid rgb(22, 160, 133);
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.texte_section3{
+    width: 40%;
+}
+
+.img_section3{
+    z-index: -1;
+}
+/*fin de section 3*/
+
+/*section 4*/
+.section4{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10%;
+    padding-bottom: 10%;;
+    background-color: rgb(245, 246, 247);
+}
+
+.texte_section4{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img1_section4{
+    width: 25%;
+}
+
+.img2_section4{
+    width: 25%;
+}
+/*fin de section 4*/
+
+/*section 5*/
+.section5{
+    width: 100%;
+    height: 1200px;
+    background-image: url(image/screen3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1_section5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2_section5{
+    font-size: 300%;
+    color: white;
+}
+
+.form1{
+    display: flex;
+    flex-direction: row;
+}
+
+.barre1{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input_email{
+    padding: 8%;
+}
+
+.input_bouton{
+    padding: 8%;
+    background-color: rgb(22, 160, 133);
+    border-width: 0px;
+}
+/*fin de section 5*/
+
+/*section 6*/
+.section6{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.texte_section6{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.store{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apple{
+    width: 25%;
+    display: flex;
+}
+
+.bouton_apple{
+    background-color: rgb(26, 188, 156);
+    color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 25%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-width: 0px;
+}
+
+.icon_apple{
+    background-color: rgb(22, 160, 133);
+    padding: 3%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.play{
+    width: 25%;
+    display: flex;
+}
+
+.bouton_play{
+    background-color: rgb(26, 188, 156);
+    color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 25%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-width: 0px;
+}
+
+.icon_play{
+    background-color: rgb(22, 160, 133);
+    padding: 3%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+/*fin de section 6*/
+
+/*section 7*/
+.footer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div_footer{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.div_footer ul{
+    width: 40%;
+    padding-left: 0px;
+}
+.div_footer2{
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+ul{
+    width: 25%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+span{
+    color:rgb(22, 160, 133);
+}
+/*fin de section 7*/
+
